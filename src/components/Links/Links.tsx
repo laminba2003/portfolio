@@ -4,7 +4,7 @@ type Props = {
 
 const Links = ({ header = false }: Props) => {
   return (
-    <ul className={`flex items-end justify-end gap-4 px-4 py-4 ${header ? 'flex-col md:flex-row' : ''}`}>
+    <ul className={`flex items-end justify-end gap-4 px-2 py-4 mt-4 ${header ? 'flex-col md:flex-row' : ''}`}>
       <li>
         <a href="https://github.com/pacobabs" target="_blank">
           <svg
