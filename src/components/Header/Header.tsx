@@ -5,7 +5,7 @@ const Header = () => {
     <header className="relative flex justify-between w-full">
       <div
         id="space"
-        className="px-4 py-4 pb-64 md:pb-72 lg:w-64 bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900"
+        className="px-4 py-8 md:py-4 pb-64 md:pb-72 lg:w-64 bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900"
       >
         <div id="stars"></div>
         <div id="stars2"></div>

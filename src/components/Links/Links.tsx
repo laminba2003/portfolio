@@ -5,8 +5,8 @@ type Props = {
 const Links = ({ header = false }: Props) => {
   return (
     <ul
-      className={`flex items-end gap-4 px-2 py-4 mt-4 ${
-        header ? 'flex-col md:flex-row justify-end' : 'justify-center'
+      className={`flex items-end gap-4 px-2 mt-4 ${
+        header ? 'flex-col md:flex-row justify-end py-8 md:py-4' : 'py-4 justify-center'
       }`}
     >
       <li>
