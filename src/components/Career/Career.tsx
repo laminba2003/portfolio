@@ -8,7 +8,7 @@ const Career = () => {
           <li className="flex gap-4">
             <div className="w-8 h-8 mt-2.5 bg-purple-500 rounded-full"></div>
             <div className="flex flex-col w-32 mt-4 font-medium md:w-64">
-              <h4 className="text-pink-800">2020 to now: Software engineer consultant</h4>
+              <h4 className="text-pink-800">2020: Software engineer consultant</h4>
               <p className="text-xl font-medium text-gray-900 font-crimson">ReactJS sites and applications.</p>
             </div>
           </li>
