@@ -1,7 +1,7 @@
 const Favorite = () => {
   return (
     <section className="w-full pt-8 text-center bg-yellow-50 md:pt-6 font-inter">
-      <h3 className="px-2 mt-2 font-bold text-pink-600 font-casual">⭐ My Favorite stack ⭐</h3>
+      <h3 className="mt-2 font-bold text-pink-600 font-casual">⭐ Favorite stack ⭐</h3>
       <div className="grid grid-cols-2 px-4 py-4 mx-auto md:py-2 justify-items-center sm:grid-cols-4 lg:grid-cols-8">
         <p className="w-16">
           <svg
