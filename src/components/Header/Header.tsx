@@ -5,7 +5,7 @@ const Header = () => {
     <header className="relative flex justify-between w-full">
       <div
         id="space"
-        className="px-4 py-8 md:py-4 pb-64 md:pb-72 lg:w-64 bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900"
+        className="px-4 py-8 pb-64 md:py-4 md:pb-72 lg:w-64 bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900"
       >
         <div id="stars"></div>
         <div id="stars2"></div>
@@ -25,7 +25,7 @@ const Header = () => {
       </div>
       <img
         src="/cover.jpg"
-        className="absolute object-cover w-full h-40 filter-gray md:h-48 lg:h-64 top-2/3 md:left-24 md:top-48 lg:top-40 md:w-80 lg:w-2/3"
+        className="absolute object-cover w-full h-40 contain filter-gray md:h-48 lg:h-64 top-2/3 md:left-24 md:top-48 lg:top-40 md:w-80 lg:w-2/3"
       />
       <div className="flex-grow bg-white">
         <Links header={true} />

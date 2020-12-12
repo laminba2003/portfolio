@@ -311,6 +311,9 @@ body {
 }
 
 @layer utilities {
+  .contain {
+    contain: style layout paint;
+  }
   .filter-gray {
     filter: blur(1px) grayscale(61%) saturate(2) sepia(0.2);
   }
