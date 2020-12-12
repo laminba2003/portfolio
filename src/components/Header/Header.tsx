@@ -17,7 +17,7 @@ const Header = () => {
         </p>
       </div>
       <img
-        src="https://miro.medium.com/max/1485/0*zSorAaUqIgBl1XCC"
+        src="/cover.jpg"
         className="absolute object-cover w-full h-32 md:h-48 lg:h-64 top-2/3 md:left-24 md:top-48 lg:top-40 md:w-80 lg:w-2/3"
       />
       <div className="flex-grow bg-white">
