@@ -11,7 +11,8 @@ const Header = () => {
         <p className="text-gray-100 font-inter">
           <span className="font-slant-1 font-recursive">Passionate</span> and ambitious
           <br />
-          <span className="font-slant-1 font-recursive">software</span> engineer from Dakar, Senegal.
+          <span className="font-slant-1 font-recursive">software</span> engineer from
+          <span className="font-slant-1 font-recursive"> Dakar</span>, Senegal.
           <br />
           <span className="font-slant-1 font-recursive">loving</span> web technologies.
         </p>
