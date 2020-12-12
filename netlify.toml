@@ -1,8 +1,2 @@
-[[redirects]]
-  from = "http://www.pacobabs.netlify.app/*"
-  to = "https://www.pacobabs.netlify.app/*"
-  status = 301
-  force = true
-
 [[plugins]]
 package = "netlify-plugin-cache-nextjs"
