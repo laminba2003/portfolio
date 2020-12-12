@@ -1,6 +1,6 @@
 const Strategy = () => {
   return (
-    <div className="relative flex flex-wrap items-center justify-center overflow-hidden bg-gray-50 h-96">
+    <section className="strategy relative flex flex-wrap items-center justify-center overflow-hidden bg-gray-50 h-96">
       <div className="relative z-20 flex flex-wrap justify-around w-full max-w-4xl">
         <div className="w-full md:w-48 lg:w-64">
           <div className="relative mt-1 mb-4 md:mt-2 lg:mb-6">
@@ -54,7 +54,7 @@ const Strategy = () => {
       <div className="absolute top-0 right-0 z-10 w-1/2 h-full -mr-20 bg-gray-300"></div>
 
       <div className="absolute bottom-0 right-0 z-10 w-1 h-64 mr-5 bg-gray-100"></div>
-    </div>
+    </section>
   )
 }
 

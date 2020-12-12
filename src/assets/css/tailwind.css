@@ -9,6 +9,73 @@ body {
 @tailwind utilities;
 
 @layer components {
+  .career {
+    content-visibility: auto;
+    contain-intrinsic-size: 1px 2471px;
+  }
+  .strategy {
+    content-visibility: auto;
+    contain-intrinsic-size: 1px 614px;
+  }
+  .skills {
+    content-visibility: auto;
+    contain-intrinsic-size: 1px 1160px;
+  }
+  .portfolio {
+    content-visibility: auto;
+    contain-intrinsic-size: 1px 2073px;
+  }
+  .favorite {
+    content-visibility: auto;
+    contain-intrinsic-size: 1px 941px;
+  }
+  header {
+    content-visibility: auto;
+    contain-intrinsic-size: 1px 754px;
+  }
+  footer {
+    content-visibility: auto;
+    contain-intrinsic-size: 1px 312px;
+  }
+  @screen sm {
+    .skills {
+      contain-intrinsic-size: 1px 1124px;
+    }
+    header {
+      contain-intrinsic-size: 1px 649px;
+    }
+  }
+  @screen md {
+    .career {
+      contain-intrinsic-size: 1px 1795px;
+    }
+    .skills {
+      contain-intrinsic-size: 1px 716px;
+    }
+    .portfolio {
+      contain-intrinsic-size: 1px 1203px;
+    }
+    .favorite {
+      contain-intrinsic-size: 1px 528px;
+    }
+    header {
+      contain-intrinsic-size: 1px 675px;
+    }
+    footer {
+      contain-intrinsic-size: 1px 287px;
+    }
+  }
+  @screen lg {
+    .favorite {
+      contain-intrinsic-size: 1px 341px;
+    }
+    header {
+      contain-intrinsic-size: 1px 701px;
+    }
+    footer {
+      contain-intrinsic-size: 1px 299px;
+    }
+  }
   #space {
     position: relative;
     overflow: hidden;

@@ -1,6 +1,6 @@
 const Portfolio = () => {
   return (
-    <div className="relative flex flex-wrap justify-around w-full md:px-8 lg:px-24 py-28 bg-gray-50">
+    <section className="portfolio relative flex flex-wrap justify-around w-full md:px-8 lg:px-24 py-28 bg-gray-50">
       <div className="grid gap-4 md:grid-cols-2">
         <div className="relative overflow-hidden md:rounded-xl">
           <img className="object-cover w-64 h-64" src="/Shopteamize.jpg" alt="Shopteamize" loading="lazy" />
@@ -49,7 +49,7 @@ const Portfolio = () => {
       <h4 className="font-casual absolute right-0 mr-20 text-6xl font-bold tracking-tighter bottom-2 md:bottom-2.5 text-pink-500">
         folio
       </h4>
-    </div>
+    </section>
   )
 }
 

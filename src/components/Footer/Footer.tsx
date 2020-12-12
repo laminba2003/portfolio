@@ -4,7 +4,7 @@ import Links from '@components/Links/Links'
 
 const Footer = () => {
   return (
-    <div
+    <footer
       id="space"
       className="flex flex-col w-full px-4 text-center text-gray-400 py-7 md:py-5 lg:py-6 bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900"
     >
@@ -17,7 +17,7 @@ const Footer = () => {
         <br />
         Typescript, React, NextJS and TailwindCSS
       </p>
-    </div>
+    </footer>
   )
 }
 

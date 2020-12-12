@@ -1,6 +1,6 @@
 const Career = () => {
   return (
-    <section className="flex flex-col items-center justify-center w-full py-20 bg-gray-100 md:flex-row font-inter">
+    <section className="career flex flex-col items-center justify-center w-full py-20 bg-gray-100 md:flex-row font-inter">
       <h2 className="-mt-2.5 md:mt-5 text-purple-500 font-slant-1 font-inter px-4">My experience</h2>
       <div className="relative mx-2 my-4 md:pt-1.5">
         <div className="absolute h-full border-r-2 border-purple-500 left-4 top-4"></div>
