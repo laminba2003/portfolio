@@ -24,7 +24,7 @@ const Career = () => {
             <div className="flex flex-col w-32 mt-4 font-medium md:w-64">
               <h4 className="text-pink-800">2015-2018: Software engineer at SNEcommerce</h4>
               <p className="text-xl font-medium text-gray-900 font-crimson">
-                Laravel and ReactJS e-commerce websites and marketplace.
+                Laravel, ReactJS and Spring boot e-commerce websites and marketplace.
               </p>
             </div>
           </li>
@@ -47,7 +47,7 @@ const Career = () => {
             <div className="flex flex-col w-32 mt-4 font-medium md:w-64">
               <h4 className="text-pink-800">2007-2009: Software engineer at A2I Africa</h4>
               <p className="text-xl font-medium text-gray-900 font-crimson">
-                Migrating a Delphi ERP application to the web as a SAAS.
+                Migrating a Delphi ERP application to the web as a SAAS with Java.
               </p>
             </div>
           </li>
@@ -56,7 +56,7 @@ const Career = () => {
             <div className="flex flex-col w-32 mt-4 font-medium md:w-64">
               <h4 className="text-pink-800">2005-2007: Software engineer consultant</h4>
               <p className="text-xl font-medium text-gray-900 font-crimson">
-                Making desktop applications with Visual Basic.
+                Making entreprise desktop applications with Visual Basic.
               </p>
             </div>
           </li>
@@ -65,7 +65,7 @@ const Career = () => {
             <div className="flex flex-col w-32 mt-4 font-medium md:w-64">
               <h4 className="text-pink-800">2003-2004: First degree in Computer science</h4>
               <p className="text-xl font-medium text-gray-900 font-crimson">
-                Developing games and mastering the development process..
+                Developing games with OpenGL and mastering the development process..
               </p>
             </div>
           </li>
