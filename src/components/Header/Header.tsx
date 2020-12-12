@@ -3,7 +3,13 @@ import Links from '@components/Links/Links'
 const Header = () => {
   return (
     <header className="relative flex justify-between w-full">
-      <div className="px-4 py-4 pb-64 bg-gray-900 md:pb-72 lg:w-64">
+      <div
+        id="space"
+        className="px-4 py-4 pb-64 md:pb-72 lg:w-64 bg-gradient-to-b from-gray-900 via-gray-700 to-gray-800"
+      >
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
         <h1 className="text-3xl leading-tight font-casual text-gray-50">
           <span className="inline-block text-white bg-purple-400 rounded-full font-inter">{'</>'}</span>{' '}
           <span className="font-slant-1">Hi</span>, I am Babacar
