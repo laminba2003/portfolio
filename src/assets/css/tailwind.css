@@ -309,8 +309,8 @@ body {
     content: ' ';
     position: absolute;
     top: 2000px;
-    width: 2px;
-    height: 2px;
+    width: 1px;
+    height: 1px;
     background: transparent;
     box-shadow: 1800px 427px #fff, 1552px 1607px #fff, 33px 560px #fff, 760px 1396px #fff, 1352px 25px #fff,
       1572px 595px #fff, 787px 1635px #fff, 51px 656px #fff, 1289px 1559px #fff, 1995px 637px #fff, 1933px 671px #fff,
@@ -349,8 +349,8 @@ body {
   }
 
   #stars3 {
-    width: 3px;
-    height: 3px;
+    width: 1px;
+    height: 1px;
     background: transparent;
     box-shadow: 1644px 1120px #fff, 71px 1059px #fff, 936px 1694px #fff, 946px 139px #fff, 270px 940px #fff,
       625px 398px #fff, 1624px 1137px #fff, 48px 1537px #fff, 1648px 1038px #fff, 920px 1110px #fff, 1426px 814px #fff,
@@ -376,8 +376,8 @@ body {
     content: ' ';
     position: absolute;
     top: 2000px;
-    width: 3px;
-    height: 3px;
+    width: 2px;
+    height: 2px;
     background: transparent;
     box-shadow: 1644px 1120px #fff, 71px 1059px #fff, 936px 1694px #fff, 946px 139px #fff, 270px 940px #fff,
       625px 398px #fff, 1624px 1137px #fff, 48px 1537px #fff, 1648px 1038px #fff, 920px 1110px #fff, 1426px 814px #fff,
