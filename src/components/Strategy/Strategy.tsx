@@ -5,6 +5,7 @@ const Strategy = () => {
         <div className="w-full md:w-48 lg:w-64">
           <div className="relative mt-1 mb-4 md:mt-2 lg:mb-6">
             <img
+              loading="lazy"
               src="https://images.unsplash.com/photo-1499914485622-a88fac536970?w=420"
               className="object-cover w-full h-16 md:w-48 md:h-48 lg:h-64 lg:w-64"
             />
@@ -20,6 +21,7 @@ const Strategy = () => {
         <div className="w-full md:w-48 lg:w-64 md:mt-16">
           <div className="relative mb-4">
             <img
+              loading="lazy"
               src="https://images.unsplash.com/photo-1462078563783-650e23af549d?w=420"
               className="object-cover w-full h-16 md:w-48 md:h-48 lg:h-64 lg:w-64"
             />
@@ -35,6 +37,7 @@ const Strategy = () => {
         <div className="w-full md:hidden">
           <div className="relative mb-4">
             <img
+              loading="lazy"
               src="https://images.unsplash.com/photo-1581291518570-03a26006fb21?w=480"
               className="object-cover w-full h-16"
             />
