@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "http://www.pacobabs.netlify.com/*"
+  to = "https://www.pacobabs.netlify.com/*"
+  status = 301
+  force = true
