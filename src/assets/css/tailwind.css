@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Recursive:slnt,wght,CASL,CRSV,MONO@-15..0,300..1000,0..1,0..1,0..1&display=swap');
 @tailwind base;
 body {
+  @apply bg-pattern;
   margin: 0;
 }
 @tailwind components;
@@ -311,6 +312,10 @@ body {
 }
 
 @layer utilities {
+  .bg-pattern {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAZUlEQVQoU42Q0REAMQREKYH+a6QEN3sza8Tl4/xE1ssKKj9DJxcR5e6HxnqLgCAS5J3aC9IJp5mJqurU8Lgdq6oyUyaIHNoVnK2R0/k6zHT/OPKvaIcAwDhaTxDD7PX21Luw9/kA+rtWC8xmK58AAAAASUVORK5CYII=)
+      repeat;
+  }
   .contain {
     contain: style layout paint;
   }

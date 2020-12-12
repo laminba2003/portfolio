@@ -27,7 +27,7 @@ const Header = () => {
         src="/cover.jpg"
         className="absolute object-cover w-full h-40 contain filter-gray md:h-48 lg:h-64 top-2/3 md:left-24 md:top-48 lg:top-40 md:w-80 lg:w-2/3"
       />
-      <div className="flex-grow bg-white">
+      <div className="flex-grow bg-pattern">
         <Links header={true} />
       </div>
     </header>
