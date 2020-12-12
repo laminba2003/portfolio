@@ -11,7 +11,7 @@ const Header = () => {
         <div id="stars2"></div>
         <div id="stars3"></div>
         <h1 className="text-3xl leading-tight font-casual text-gray-50">
-          <span className="inline-block text-white bg-purple-400 rounded-full font-inter">{'</>'}</span>{' '}
+          <span className="inline-block text-white bg-purple-500 rounded-full font-inter">{'</>'}</span>{' '}
           <span className="font-slant-1">Hi</span>, I am Babacar
         </h1>
         <p className="text-gray-100 font-inter">
