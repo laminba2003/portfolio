@@ -31,8 +31,8 @@ const Skills = () => {
         </div>
       </div>
       <div className="w-full px-4 pt-1 text-lg bg-purple-700">
-        <span className="text-pink-500 block mt-0.5 font-bold font-inter">Tools</span>
-        <p className="flex flex-wrap gap-1 pb-6 -mt-2 text-gray-300">
+        <span className="text-pink-500 block mt-0.5 font-bold font-inter text-center md:text-left">Tools</span>
+        <p className="flex flex-wrap justify-center gap-1 pb-6 -mt-2 text-gray-300 md:justify-start">
           <span className="text-pink-500">➔</span> Git
           <span className="text-pink-500">➔</span> Webpack
           <span className="text-pink-500">➔</span> Electron
